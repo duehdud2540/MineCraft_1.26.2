@@ -1,0 +1,8 @@
+{
+  "item.examplemod.land_block": "땅문서블럭",
+  "item.examplemod.coin_1" : "1원",
+  "item.examplemod.coin_5": "5원",
+  "item.examplemod.coin_10": "10원",
+  "item.examplemod.coin_50": "50원",
+  "item.examplemod.coin_100": "100원"
+}

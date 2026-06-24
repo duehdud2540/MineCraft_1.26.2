@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "examplemod:item/coin_1"
+  }
+}
+
+
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "examplemod:item/coin_1"
+  }
+}
