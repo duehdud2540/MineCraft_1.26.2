@@ -184,3 +184,12 @@ idea {
         downloadJavadoc = true
     }
 }
+
+tasks.register('runJavap', Exec) {
+    doFirst {
+        project.sourceSets.main.compileClasspath.each { println it }
+    }
+    def cp = project.sourceSets.main.compileClasspath.asPath
+    commandLine 'javap', '-p', '-cp', cp, 'net.minecraft.world.level.saveddata.SavedData'
+}
+
